@@ -1,5 +1,4 @@
-//converted shader with manual changes
-#pragma header
+#pragma header//https://www.shadertoy.com/view/lsKSDz
 
 void main()
 {
