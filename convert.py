@@ -8,7 +8,7 @@ replacements = {'mainImage':'main', 'texture':'flixel_texture2D', 'iChannel0':'b
 
 
 with open(os.getcwd() + "/shadertoy.frag") as infile, open(os.getcwd() + "/flixel.frag", 'w') as outfile:
-    outfile.write("#pragma header") # write new content at the beginning
+    outfile.write("#pragma header\n") # write new content at the beginning
     for line in infile:
         for src, target in replacements.items():
             line = line.replace(src, target)

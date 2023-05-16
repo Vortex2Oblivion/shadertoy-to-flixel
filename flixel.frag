@@ -1,6 +1,7 @@
-#pragma header//https://www.shadertoy.com/view/lsKSDz
+#pragma header
+//https://www.shadertoy.com/view/lsKSDz
 
-void main()
+void main( out vec4 gl_FragColor, in vec2 fragCoord )
 {
 	vec2 uv = openfl_TextureCoordv;
 	
