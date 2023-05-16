@@ -1,6 +1,7 @@
-//https://www.shadertoy.com/view/lsKSDz
+//converted shader with manual changes
+#pragma header
 
-void main( out vec4 gl_FragColor, in vec2 fragCoord )
+void main()
 {
 	vec2 uv = openfl_TextureCoordv;
 	
