@@ -1,7 +1,7 @@
 #pragma header
 //https://www.shadertoy.com/view/lsKSDz
 
-void main( out vec4 gl_FragColor, in vec2 fragCoord )
+void main()
 {
 	vec2 uv = openfl_TextureCoordv;
 	
