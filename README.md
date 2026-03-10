@@ -1,3 +1,5 @@
+use [this](https://theleername.github.io/ShadertoyToFlixel/) its just better than whatever the fuck this is lol
+
 # Shadertoy To Flixel
 
 A basic converter I made because I was too lazy to port shaders
